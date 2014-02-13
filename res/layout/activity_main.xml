@@ -59,6 +59,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/seekBar1"
         android:layout_alignParentRight="true"
-        android:text="Nee" />
+        android:text="Toch wel" />
 
 </RelativeLayout>
