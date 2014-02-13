@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/seekBar1"
         android:layout_alignParentRight="true"
-        android:text="peter nee toch niet" />
+        android:text="nee toch niet" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -71,11 +71,11 @@
         android:layout_marginLeft="30dp"
         android:src="@drawable/ic_launcher" />
 
-    <RelativeLayout
+    <RatingBar
+        android:id="@+id/ratingBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView1" >
-
-    </RelativeLayout>
+        android:layout_alignLeft="@+id/seekBar1"
+        android:layout_below="@+id/seekBar1" />
 
 </RelativeLayout>
