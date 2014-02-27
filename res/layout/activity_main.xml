@@ -78,4 +78,23 @@
         android:layout_alignLeft="@+id/seekBar1"
         android:layout_below="@+id/seekBar1" />
 
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_marginLeft="19dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/analogClock1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:text="Van Peeter" />
+
 </RelativeLayout>
